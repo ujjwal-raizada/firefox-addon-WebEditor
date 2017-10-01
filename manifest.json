@@ -21,6 +21,7 @@
       "*://developer.mozilla.org/*",
       "webRequest",
       "activeTab"
+     
     ]
   
   }

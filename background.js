@@ -22,5 +22,10 @@ function openPage() {
 //script inject code ends
 
 }
-
+//lsitening to browser button click
 browser.browserAction.onClicked.addListener(openPage);
+
+
+
+
+ 
