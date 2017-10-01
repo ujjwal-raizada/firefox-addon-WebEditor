@@ -1,0 +1,26 @@
+{
+  
+    "description": "Can convert any webpage into edittable document , which can then be editted and saved .",
+    "manifest_version": 2,
+    "name": "Web Editor",
+    "version": "1.0",
+  
+    "background": {
+      "scripts": ["background.js"]
+    },
+   //adding a button on browser toolbar
+    "browser_action": {
+      "default_icon": {
+        "16": "icons/web-editor.png",
+        "32": "icons/web-editor.png"
+      }
+    },
+
+    //allowing add on to access activeTabs and web requests
+    "permissions": [
+      "*://developer.mozilla.org/*",
+      "webRequest",
+      "activeTab"
+    ]
+  
+  }
