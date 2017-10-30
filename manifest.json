@@ -18,7 +18,7 @@
 
     //allowing add on to access activeTabs and web requests
     "permissions": [
-      "*://developer.mozilla.org/*",
+      "*://developer.mozilla.org/*", //excluding mozilla webpages
       "webRequest",
       "activeTab"
      
