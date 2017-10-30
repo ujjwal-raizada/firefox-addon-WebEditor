@@ -15,6 +15,16 @@ function openPage() {
 
   var editorcode = "alert('Website is in Editor mode !! After editing , use CTRL + S , to save !');document.body.contentEditable = 'true'; document.designMode = 'on'; void 0";
   
+ /*
+ #code#
+ ------
+ 
+ document.body.contentEditable = 'true'; document.designMode = 'on'; void 0
+ 
+ 
+ */
+ 
+ 
   var executing = browser.tabs.executeScript({
     code: editorcode
   });
