@@ -1,8 +1,9 @@
 ## README FILE ##
+-----------------
 
-WebEditor is a firefox addon , which let you make any webpage editable ,
+WebEditor is a Mozilla Firefox addon , which let you make any webpage editable ,
 
-it injects a specific javascript code in the page to make it editable .
+It injects a specific javascript code in the page to make it editable .
 
 #How to operate#
 install the addon.
