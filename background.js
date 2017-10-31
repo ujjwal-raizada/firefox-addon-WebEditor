@@ -1,6 +1,7 @@
 function openPage() {
  
   //script inject code start
+  //script inject code started
 
   function onExecuted(result) {
     console.log(`Editor start`);
