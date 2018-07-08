@@ -1,6 +1,7 @@
 function openPage() {
  
   //script inject code start
+  //script inject code started
 
   function onExecuted(result) {
     console.log(`Editor start`);
@@ -9,8 +10,7 @@ function openPage() {
   function onError(error) {
     console.log(`Error: ${error}`);
   }
-  //inject the following
-  //javascript in the current active
+  //inject the following javascript in the current active
   //tab
 
   var editorcode = "alert('Website is in Editor mode !! After editing , use CTRL + S , to save !');document.body.contentEditable = 'true'; document.designMode = 'on'; void 0";
