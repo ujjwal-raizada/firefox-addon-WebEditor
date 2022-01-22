@@ -1,6 +1,6 @@
 ## README FILE ##
 -----------------
-link to add-on https://addons.mozilla.org/en-US/firefox/addon/web-editor/
+link to add-on https://addons.mozilla.org/firefox/addon/web-editor/
 
 WebEditor is a Mozilla Firefox addon , which let you make any webpage editable ,
 
